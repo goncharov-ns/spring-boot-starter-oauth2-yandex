@@ -6,23 +6,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 
 /**
- * {
-     "first_name": "\u0412\u0430\u0441\u044F",
-     "last_name": "\u041F\u0443\u043F\u043A\u0438\u043D",
-     "display_name": "Vasya",
-     "emails":
-     [
-     "test@yandex.ru",
-     "other-test@yandex.ru"
-     ],
-     "default_email": "test@yandex.ru",
-     "real_name": "\u0412\u0430\u0441\u044F \u041F\u0443\u043F\u043A\u0438\u043D",
-     "birthday": "1987-03-12",
-     "login": "vasya",
-     "old_social_login": "uid-mmzxrnry",
-     "sex": "male",
-     "id": "1000034426"
-    }
  * @author Anton Rudenko.
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
